@@ -1,0 +1,124 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "telex/block-ingeni-contact-info-block",
+	"version": "0.1.0",
+	"title": "Contact Info",
+	"category": "widgets",
+	"icon": "id-alt",
+	"description": "Display selected contact information fields from your global settings. Configure your contact details under Settings > Contact Info.",
+	"example": {
+		"attributes": {
+			"showPhone": true,
+			"showEmail": true,
+			"showAddress": true,
+			"showCountry": false
+		}
+	},
+	"attributes": {
+		"showPhone": {
+			"type": "boolean",
+			"default": true
+		},
+		"showPhone2": {
+			"type": "boolean",
+			"default": false
+		},
+		"showEmail": {
+			"type": "boolean",
+			"default": true
+		},
+		"showEmail2": {
+			"type": "boolean",
+			"default": false
+		},
+		"showStreetAddress": {
+			"type": "boolean",
+			"default": true
+		},
+		"showTown": {
+			"type": "boolean",
+			"default": true
+		},
+		"showState": {
+			"type": "boolean",
+			"default": true
+		},
+		"showZipCode": {
+			"type": "boolean",
+			"default": true
+		},
+		"showCountry": {
+			"type": "boolean",
+			"default": false
+		},
+		"showPostalAddress": {
+			"type": "boolean",
+			"default": false
+		},
+		"layout": {
+			"type": "string",
+			"default": "stacked"
+		},
+		"overridePhone": {
+			"type": "string",
+			"default": ""
+		},
+		"overrideEmail": {
+			"type": "string",
+			"default": ""
+		},
+		"overrideStreetAddress": {
+			"type": "string",
+			"default": ""
+		},
+		"overrideTown": {
+			"type": "string",
+			"default": ""
+		},
+		"overrideState": {
+			"type": "string",
+			"default": ""
+		},
+		"overrideZipCode": {
+			"type": "string",
+			"default": ""
+		},
+		"overrideCountry": {
+			"type": "string",
+			"default": ""
+		},
+		"showIconsContact": {
+			"type": "boolean",
+			"default": true
+		},
+		"showIconsAddress": {
+			"type": "boolean",
+			"default": true
+		}
+	},
+	"supports": {
+		"html": false,
+		"color": {
+			"background": true,
+			"text": true,
+			"link": true
+		},
+		"spacing": {
+			"margin": true,
+			"padding": true,
+			"blockGap": true
+		},
+		"typography": {
+			"fontSize": true,
+			"lineHeight": true
+		},
+		"align": [ "wide", "full" ]
+	},
+	"textdomain": "ingeni-contact-info-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js",
+	"render": "file:./render.php"
+}

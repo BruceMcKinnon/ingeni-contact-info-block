@@ -1,0 +1,65 @@
+.wp-block-telex-block-ingeni-contact-info-block {
+	.ingeni-contact-info-block__placeholder {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding: 2em 1em;
+		border: 1px dashed #ccc;
+		border-radius: 4px;
+		text-align: center;
+		color: #757575;
+		background: #f9f9f9;
+
+		p {
+			margin: 0.25em 0 0;
+			font-weight: 600;
+			color: #1e1e1e;
+		}
+
+		a {
+			color: #007cba;
+			text-decoration: underline;
+		}
+	}
+
+	.ingeni-contact-info-block__placeholder-icon {
+		display: inline-flex;
+		width: 36px;
+		height: 36px;
+		align-items: center;
+		justify-content: center;
+		color: #757575;
+
+		svg {
+			width: 36px;
+			height: 36px;
+		}
+	}
+
+	.ingeni-contact-info-block__placeholder-hint {
+		font-size: 0.85em;
+		font-weight: 400 !important;
+		color: #757575 !important;
+	}
+
+	.ingeni-contact-info-block__override-badge {
+		display: inline-block;
+		margin-left: 0.5em;
+		font-size: 0.7em;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		background: #e0e0e0;
+		color: #555;
+		padding: 0.1em 0.45em;
+		border-radius: 3px;
+		vertical-align: middle;
+	}
+}
+
+.ingeni-contact-info-block__settings-hint {
+	font-size: 0.85em;
+	color: #757575;
+	margin-bottom: 1em;
+}

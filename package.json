@@ -1,0 +1,21 @@
+
+{
+	"name": "ingeni-contact-info-block",
+	"version": "0.1.0",
+	"description": "A flexible contact information block that stores phone, email, address, and developer fields. Display selected fields on page and access all data from templates via PHP helpers.",
+	"author": "Ingeni and WordPress Telex",
+	"license": "GPL-2.0-or-later",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^30.15.0"
+	}
+}
